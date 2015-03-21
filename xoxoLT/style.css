@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Oxygen Light"), local("Oxygen-Light"), url("http://fonts.gstatic.com/s/oxygen/v5/AwBqWF2kjhlybWamaKMPcVtXRa8TVwTICgirnJhmVJw.woff2") format("woff2"), url("http://fonts.gstatic.com/s/oxygen/v5/AwBqWF2kjhlybWamaKMPcT8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+
+body {
+	background-color: #fff;
+	margin: 0px auto;
+	font-family: Oxygen;
+	font-size: 12px;
+	color: #000;
+}
+
+a {
+	text-decoration: underlined;
+	color: #000;
+}
+
+#navi {
+	width: 100%;
+	height: 50px;
+	box-shadow: 0px 1px 2px #888;
+	padding: 3px 30px 3px 30px;
+}
+
+.logo {
+	width: 80%;
+	font-size: 18px;
+}
+
+.lin {
+	width: 5%; 
+	background-color: #43C6DB;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.sig {
+	width: 5%; 
+	background-color: #DB5844;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+#form {
+	width: 20%;
+	box-shadow: 0px 1px 2px #888;
+	margin: 3px;
+	padding: 5px 2px 5px 2px;
+}
+
+.inputas {
+	width: 90%;
+	height: 20px;
+	border: 1px solid #4DD0E5;
+	border-radius: 5px;
+	padding: 3px;
+}
+
+.space {
+	height: 5px;
+}
+
+.subm {
+	height: 35px;
+	background-color: #DB5844;
+	text-align: center;
+	color: #fff;
+	border: 0px;
+	cursor: pointer;
+}
